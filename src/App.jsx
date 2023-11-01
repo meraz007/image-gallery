@@ -1,15 +1,14 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
+import { useState } from 'react'
+import Layout from './components/Layout'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
-      <div className='container mx-auto max-w-6xl py-10'>
-        <h1>Image gallery</h1>
+      <div className='bg-gray-100'>
+          <div className='container mx-auto max-w-6xl py-10'>
+              <Layout />
+          </div>
       </div>
     </>
   )
